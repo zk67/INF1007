@@ -4,7 +4,7 @@ import math
 #        et affiche le résultat au format "XX km".
 #        Assurez une gestion du pourcentage valide au cours de votre programme (% toujours dans [0 ; 100]).
 
-battery_level = float(input("Pourcentage de batterie ? "))
+battery_level = float(input("Quel est le pourcentage de la batterie ? "))
 
 distance = 0
 if(battery_level == 0): print("La batterie est vide\n")
@@ -25,4 +25,4 @@ while battery_level > 0:
     battery_level -= 1
 
 
-print(f"{math.trunc(distance)} km")
+print(f"Distance pouvant être parcourue: {math.trunc(distance)} km")
