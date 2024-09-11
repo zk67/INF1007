@@ -7,3 +7,4 @@ print(f"Voici les éléments requis pour assainir {water_quantity}L d'eau:")
 print(f"\t- Filtres: {ratio}")
 print(f"\t- Lampes UV: {ratio *3}")
 print(f"\t- Chlore: {ratio * 0.5}kg")
+
