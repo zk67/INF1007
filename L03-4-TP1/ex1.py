@@ -16,5 +16,3 @@ print("\n"+"Nouveau Record:"+"\n"
        +"------------------"+ "\n" 
        +date + " - " + dicipline + " - " + catégorie + ":" + "\n"
        +athlete+" ("+country+") - " + record) 
-
-#IT IS WORKING!!!!
