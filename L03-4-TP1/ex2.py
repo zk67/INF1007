@@ -10,10 +10,8 @@ nblampes = 3*ratio
 if nbfiltres-int(nbfiltres) > 0:nbfiltres +=1
 if nblampes-int(nblampes) > 0:nblampes += 1
 
-print(f"""Voici les éléments requis pour assainir {water_quantity}L d'eau:\n
-        \t- Filtre(s) : {int(nbfiltres)}\n
-        \t- Lampe(s) UV : {int(nblampes)}\n
-        \t- Chlore : {ratio * 0.5}kg""")
+print(f"""Voici les éléments requis pour assainir {water_quantity}L d'eau:
+\t- Filtre(s) : {int(nbfiltres)}
+\t- Lampe(s) UV : {int(nblampes)}
+\t- Chlore : {ratio * 0.5}kg""")
 
-
-    
