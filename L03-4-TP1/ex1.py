@@ -2,17 +2,17 @@
 
 country = input("De quelle nationalité est l'athlète ? ")
 
-athlete = input("Quel est le nom de l'athlète ? ")
+athlete = input("Quel est son nom ? ")
 
-date = input("Quelle est la date du record ? ")
+date = input("Date du record ? ")
 
-dicipline = input("Quelle est la dicipline de l'athlète ? ")
+dicipline = input("Dans quelle discipline ? ")
 
-catégorie = input("Quelle est la catégorie de l'athlète ? ")
+catégorie = input("Dans une catégorie spécifique ? ")
 
 record = input("Quel est le record ? ")
 
-print("\n"+"Nouveau Record:"+"\n"
-       +"------------------"+ "\n" 
-       +date + " - " + dicipline + " - " + catégorie + ":" + "\n"
+print("\nNouveau Record:\n"
+       "------------------\n" 
+       +date + " - " + dicipline + " - " + catégorie + ":\n"
        +athlete+" ("+country+") - " + record) 
