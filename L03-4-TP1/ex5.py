@@ -5,7 +5,7 @@ country = input("Pays concerné ? ")
 
 
 
-code_medals = input("Chaine représentant les médailles ? "+country+":")
+code_medals = input("Chaine représentant les médailles ? ")
 
 
 chaine = True
@@ -13,7 +13,7 @@ chaine = True
 for j in range(len(code_medals)) :
 
   if code_medals[j] not in {"G", "S", "B"}:
-    print("Erreur dans l'entrée !")
+    print("Ceci est une chaine invalide.")
     chaine = False
 
     
@@ -44,4 +44,5 @@ if chaine == True :
 
  
     
-   print( "\n- "+str(medaille_or)+" OR\n- "+str(medaille_argent)+" Argent\n- "+str(medaille_bronze) +" Bronze"  )
+   print( country+":"
+     "\n- "+str(medaille_or)+" Or\n- "+str(medaille_argent)+" Argent\n- "+str(medaille_bronze) +" Bronze"  )
