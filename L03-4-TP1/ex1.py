@@ -12,7 +12,4 @@ catégorie = input("Dans une catégorie spécifique ? ")
 
 record = input("Quel est le record ? ")
 
-print("\nNouveau Record:\n"
-       "------------------\n" 
-       +date + " - " + dicipline + " - " + catégorie + ":\n"
-       +athlete+" ("+country+") - " + record) 
+print(f"\nNouveau Record:\n--------------------\n{date} - {dicipline} - {catégorie}:\n\t{athlete} ({country}) - {record}") 

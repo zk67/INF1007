@@ -2,9 +2,10 @@
 # TODO: Importer les modules nécessaires.
 import math
 
-speed = float(input("Entrez la vitesse initiale: "))
-angle = float(input("Entrez l'angle de lancement (en degrées): "))
+speed = float(input("Vitesse initiale (m/s): "))
+angle = float(input("Angle de lancer (en degrés): "))
 
-distance = (pow(speed , 2) * math.sin(2* angle)) / 9.81
+
+distance = ((speed**2) * (math.sin(math.radians(2* angle)))) / 9.8
 
 print("Distance parcourue: " + str(round(distance,2))+ "m")
